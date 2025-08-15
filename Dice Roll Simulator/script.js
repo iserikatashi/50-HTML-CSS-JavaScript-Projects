@@ -12,7 +12,7 @@ async function bntRollDices() {
         resovle()
     },1000)})
 
-    await new Promise(() => {txt = txt + `<li>Roll ${randomDice[1]}: <span>${randomDice[0]}</span></li>`
+    await new Promise(() => {txt = `<li>Roll ${randomDice[1]}: <span>${randomDice[0]}</span></li>` + txt;
     rollHistory.innerHTML = txt;})
 }
 
