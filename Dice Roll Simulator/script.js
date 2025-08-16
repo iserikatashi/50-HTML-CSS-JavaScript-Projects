@@ -34,7 +34,7 @@ function rendomDice(min, max) {
         case 6:
             return ['&#9861;', rendom];
         default:
-            return '';
             console.log('error');    
+            return '';
     }
 }
